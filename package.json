@@ -8,8 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vueuse/core": "^10.7.1",
-    "vue": "^3.3.11"
+    "@vueuse/core": "^10.7.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",

@@ -31,7 +31,7 @@ export default defineConfig({
   build: {
     target: "es2015",
     rollupOptions: {
-      external: Object.keys(externalGlobalsObj),
+      // external: Object.keys(externalGlobalsObj),
       output: {
         entryFileNames: "assets/app.[hash].js",
         assetFileNames: "media/[name]-[hash].[ext]",
